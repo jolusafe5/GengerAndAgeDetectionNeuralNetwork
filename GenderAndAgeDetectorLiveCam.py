@@ -65,6 +65,7 @@ while (webcam.isOpened()):
         
     #Se muestra la salida
     cv2.imshow("Detecciòn de Gènero", frame)
+    cv2.waitKey(1)
     
     #Para salir presionamos Q
     #if (cv2.waitKey(1)& 0xFF == ord('q')):
